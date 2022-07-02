@@ -1,0 +1,10 @@
+/* full screen flexi bacground img */
+body {
+  background-image: url(../images/DST_img-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:rgb(154, 11, 42);
+
+} 
