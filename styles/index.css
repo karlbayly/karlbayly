@@ -147,6 +147,14 @@ ul {
   left: 150px;
   }
 
+  #img-home-2 {
+    width: 300px;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    padding-bottom:50px;
+    left: 0px;
+    }
 
   #blog-img {
   max-height: 30px;
@@ -155,6 +163,8 @@ ul {
   #blog-img-2 {
   max-width: 100%;
   }
+
+
 
 
  /* index list for site map page */ 
