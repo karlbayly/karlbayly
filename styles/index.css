@@ -95,10 +95,11 @@ ul {
   h2 {
     font-family: Helvetica, 'Arial', sans-serif;
     color:  rgb(154, 11, 42);
-    font-size: 15px;
+    font-size: 50px;
     font-weight: 500;
-    font-style: oblique;
+    font-style:;
     padding-top: 15px;
+    text-transform: uppercase ;
     }
 
   h3 {
