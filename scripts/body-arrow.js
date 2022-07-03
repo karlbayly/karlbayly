@@ -10,7 +10,7 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    mybutton.style.display = 'none'
+    mybutton.style.display = 'block'
   } else {
     mybutton.style.display = 'none'
   }
