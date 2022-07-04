@@ -78,7 +78,7 @@ ul {
 
   nav {
     font-family: Helvetica, 'Arial', sans-serif;
-    color:  rgb(154, 11, 42);
+    color:  rgba(154, 11, 42, 0);
     font-size: 15px;
     }
 
@@ -97,7 +97,7 @@ ul {
     color:  rgb(154, 11, 42);
     font-size: 50px;
     font-weight: 500;
-    font-style:;
+  
     padding-top: 15px;
     text-transform: uppercase ;
     }
@@ -161,9 +161,9 @@ ul {
   }
 
   #blog-img-2 {
-  max-width: 100%;
+  max-width: 80%;
+  mix-blend-mode: multiply;
   }
-
 
 
 
@@ -196,25 +196,28 @@ ul {
 
     /* LINK STYLING */
 
-/* unvisited link */
-a:link {
-  color:  rgb(154, 11, 42);}
-/* visited link */
-a:visited {
-  color:  rgb(154, 11, 42);}
-/* mouse over link */
-a:hover {
-  color: #f4f4f400;}
-/* selected link */
-a:active {
-  color:  rgb(154, 11, 42);}
-a:link {
-  text-decoration: none;}
-a:visited {
-  text-decoration: none;  }
-a:hover {
-  text-decoration: underline rgb(154, 11, 42)}
+    /* unvisited link */
+    a:link {color:  rgb(154, 11, 42);}
+    /* visited link */
+    a:visited {color:  rgb(154, 11, 42);}
+    /* mouse over link */
+    a:hover {color: #f4f4f400;}
+    /* selected link */
+    a:active {color:  rgb(154, 11, 42);}
+    a:link {text-decoration: none;}
+    a:visited {text-decoration: none;  }
+    a:hover {text-decoration: underline rgb(154, 11, 42)}
 
+
+     
+      /* LINK STYLING homepage*/
+
+      a#home {color: white; text-decoration: none;}
+      a#home:link {color: white;}
+      a#home:visited {color: rgb(255, 255, 255);}
+      a#home:hover {color: rgba(255, 255, 255, 0);}
+      a#home:active {color: rgb(255, 255, 255);}
+      a#home:hover {text-decoration: underline rgb(255, 255, 255)}
 
 
 
