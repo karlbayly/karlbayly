@@ -1,6 +1,6 @@
 //Gets button
 
-var mybutton = document.getElementById('body-arrow')
+let mybutton = document.getElementById('body-arrow')
 
 // when scrolls past 100px from the top button apears
 
@@ -9,8 +9,10 @@ window.onscroll = function () {
 }
 
 function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    mybutton.style.display = 'block'
+  if (
+    document.body.scrollTop < 100 ||
+    document.documentElement.scrollTop < 100
+  ) {
   } else {
     mybutton.style.display = 'none'
   }
@@ -19,6 +21,6 @@ function scrollFunction() {
 // When the user clicks on the button, scroll to the top of page
 
 function topFunction() {
-  document.body.scrollTop = 0
-  document.documentElement.scrollTop = 0
+  document.body.scrollTop = 1
+  document.documentElement.scrollTop = 1
 }
