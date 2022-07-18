@@ -100,6 +100,15 @@ ul {
   
     padding-top: 15px;
     text-transform: uppercase ;
+    hyphens: auto;
+    }
+
+  h2 {
+    width: 100%;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
     }
 
   h3 {
@@ -136,6 +145,13 @@ ul {
     }
 
 
+  #blog-link{
+    font-family: Helvetica, 'Arial', sans-serif;
+    color:  rgb(154, 11, 42);
+    font-style: italic;
+    font-size: 12px;
+
+    }
  /* IMAGES STYLING */
 
  #img-home {
