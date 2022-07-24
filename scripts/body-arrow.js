@@ -9,10 +9,7 @@ window.onscroll = function () {
 }
 
 function scrollFunction() {
-  if (
-    document.body.scrollTop < 100 ||
-    document.documentElement.scrollTop < 100
-  ) {
+  if (document.body.scrollTop < 10 || document.documentElement.scrollTop < 10) {
   } else {
     mybutton.style.display = 'none'
   }
@@ -21,6 +18,6 @@ function scrollFunction() {
 // When the user clicks on the button, scroll to the top of page
 
 function topFunction() {
-  document.body.scrollTop = 1
-  document.documentElement.scrollTop = 1
+  document.body.scrollTop = 10
+  document.documentElement.scrollTop = 10
 }
